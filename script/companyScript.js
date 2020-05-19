@@ -96,7 +96,7 @@ function companyAddressValidation() {
         return false;
     }
     else {
-        errorParagCo[2].innerHTML = "";
+        errorParagCo[1].innerHTML = "";
         return true;
     }
 }
