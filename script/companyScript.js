@@ -147,7 +147,7 @@ function companyRegNumberValidation() {
     }
     else if (regexNum.test(companyRegNumber.value) === false) {
         errorParagCo[3].style.color = "red"
-        errorParagCo[3].innerHTML = "* Please fill the Registration Number!"
+        errorParagCo[3].innerHTML = "* Company Reg. Number must contain letters and numbers!"
         return false;
     }
     else {
